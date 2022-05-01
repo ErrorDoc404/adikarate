@@ -3590,7 +3590,7 @@ a.logo-2 span {
     display: inherit;
 }
 
-.headers-9 .nav_w3ls nav ul ul li {
+.headers-9 .nav_adi nav ul ul li {
     width: 170px;
     float: none;
     display: block;
@@ -3598,14 +3598,14 @@ a.logo-2 span {
     margin: 0;
 }
 
-.headers-9 .nav_w3ls nav ul ul li a {
+.headers-9 .nav_adi nav ul ul li a {
     display: block;
     color: #333;
     padding: 4px 8px;
     font-size: 16px;
 }
 
-.headers-9 .nav_w3ls nav ul ul li a:hover {
+.headers-9 .nav_adi nav ul ul li a:hover {
     color: #000;
     background: #eee;
     opacity: 1;
@@ -3701,7 +3701,7 @@ a.logo-2 span {
         width: 100%;
     }
 
-    .headers-9 .nav_w3ls nav ul ul {
+    .headers-9 .nav_adi nav ul ul {
         float: none;
         position: static;
         color: #ffffff;
@@ -3723,7 +3723,7 @@ a.logo-2 span {
         position: static;
     }
 
-    .headers-9 .nav_w3ls nav ul ul li {
+    .headers-9 .nav_adi nav ul ul li {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -4039,11 +4039,11 @@ a.logo-2 span {
     /* //banner */
 }
 
-.hero-headers-11 .slider-text-w3ls {
+.hero-headers-11 .slider-text {
     max-width: 650px;
 }
 
-.hero-headers-11 .slider-text-w3ls span {
+.hero-headers-11 .slider-text span {
     color: #fff;
     padding: 10px 12px;
     background: rgba(255, 255, 255, 0.2);
@@ -4053,18 +4053,18 @@ a.logo-2 span {
     font-size: 16px;
 }
 
-.hero-headers-11 .slider-text-w3ls h4 {
+.hero-headers-11 .slider-text h4 {
     color: #fff;
     font-size: 40px;
     font-weight: 100;
     line-height: 45px;
 }
 
-.hero-headers-11 .slider-text-w3ls h4 b {
+.hero-headers-11 .slider-text h4 b {
     font-weight: bold;
 }
 
-.hero-headers-11 .slider-text-w3ls p {
+.hero-headers-11 .slider-text p {
     color: #c1c1c1;
     margin: 14px 0 28px;
 }
@@ -4247,7 +4247,7 @@ a.logo-2 span {
 .hero-headers-11 .banner-1,
 .hero-headers-11 .banner-2,
 .hero-headers-11 .banner-3 {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -4266,18 +4266,18 @@ a.logo-2 span {
 }
 
 @media (max-width: 568px) {
-    .hero-headers-11 .slider-text-w3ls h4 {
+    .hero-headers-11 .slider-text h4 {
         font-size: 35px;
         line-height: 40px;
     }
 
-    .hero-headers-11 .slider-text-w3ls span {
+    .hero-headers-11 .slider-text span {
         font-size: 15px;
     }
 }
 
 @media (max-width: 480px) {
-    .hero-headers-11 .slider-text-w3ls h4 {
+    .hero-headers-11 .slider-text h4 {
         font-size: 32px;
         line-height: 38px;
     }
@@ -4286,6 +4286,7 @@ a.logo-2 span {
     .hero-headers-11 .banner-2,
     .hero-headers-11 .banner-3 {
         padding: 30px 0 40px;
+        min-height: 200px;
     }
 }
 
@@ -7128,7 +7129,7 @@ a.logo-2 span {
     /*-- //gallery --*/
 }
 
-.gallery-main .gallery-w3lsrow {
+.gallery-main .galleryrow {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
@@ -7215,7 +7216,7 @@ a.logo-2 span {
 }
 
 @media screen and (max-width: 370px) {
-    .gallery-main .gallery-w3lsrow {
+    .gallery-main .galleryrow {
         grid-template-columns: 1fr;
     }
 }
@@ -7996,7 +7997,7 @@ body:after {
     display: inline-block;
 }
 
-.coming-main .subscribe-w3ls {
+.coming-main .subscribe {
     max-width: 600px;
     margin-top: 2em;
 }
@@ -10005,7 +10006,7 @@ table.w3_sub_contaiiner-footer {
         max-width: 100% !important;
     }
 
-    td.w3ls_modi {
+    td.adi_modi {
         font-size: 2.5em !important;
     }
 
@@ -10163,7 +10164,7 @@ table.w3_sub_contaiiner-footer {
 }
 
 @media screen and (max-width: 480px) {
-    td.w3ls_modi {
+    td.adi_modi {
         font-size: 2.3em !important;
     }
 
@@ -10193,7 +10194,7 @@ table.w3_sub_contaiiner-footer {
 }
 
 @media screen and (max-width: 440px) {
-    td.w3ls_modi {
+    td.adi_modi {
         font-size: 2em !important;
     }
 
@@ -10272,11 +10273,11 @@ table.w3_sub_contaiiner-footer {
         font-size: 1.5em !important;
     }
 
-    table.header-w3ls {
+    table.header {
         padding: 8px 15px;
     }
 
-    td.w3ls_modi {
+    td.adi_modi {
         font-size: 1.8em !important;
     }
 
@@ -10284,7 +10285,7 @@ table.w3_sub_contaiiner-footer {
         font-size: .85em !important;
     }
 
-    table.w3ls_banner_info {
+    table.adi_banner_info {
         padding: 0 20px;
     }
 
