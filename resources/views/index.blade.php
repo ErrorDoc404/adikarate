@@ -12,16 +12,6 @@
 <body>
 <script src="{{ asset('js/ajax/libs/jquery/1.10.2/jquery.min.js')}}"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-149859901-1');
-</script>
-
 <meta name="robots" content="noindex">
 <body>
 <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
@@ -46,7 +36,7 @@
                     <nav>
                         <div class="wrapper">
                             <ul class="menu">
-                                <li><a href="index-2.html" class="link-nav">Home</a></li>
+                                <li><a href="{{route('index')}}" class="link-nav">Home</a></li>
                                 <li>
                                     <!-- First Tier Drop Down -->
                                     <label for="drop-2" class="toggle toogle-2">Pages <span class="fa fa-angle-down"
@@ -55,27 +45,27 @@
                                             class="fa fa-angle-down" aria-hidden="true"></span></a>
                                     <input type="checkbox" id="drop-2" />
                                     <ul class="first-dropdwon">
-                                        <li><a href="about.html">Dojo</a></li>
-                                        <li><a href="about.html">Chief Instructor </a></li>
-                                        <li><a href="services.html">Black Belts</a></li>
+                                        <li><a href="{{route('dojo')}}">Dojo</a></li>
+                                        <li><a href="{{route('chief-instructor')}}">Chief Instructor </a></li>
+                                        <li><a href="{{route('black-belt')}}">Black Belts</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="gallery.html" class="link-nav">Kobudo</a></li>
-                                <li><a href="gallery.html" class="link-nav">Branches</a></li>
-                                <li><a href="gallery.html" class="link-nav">Event & News</a></li>
+                                <li><a href="{{route('kobudo')}}" class="link-nav">Kobudo</a></li>
+                                <li><a href="{{route('branch')}}" class="link-nav">Branches</a></li>
+                                <li><a href="{{route('event-news')}}" class="link-nav">Event & News</a></li>
                                 <li>
                                     <!-- First Tier Drop Down -->
                                     <label for="drop-2" class="toggle toogle-2">Pages <span class="fa fa-angle-down"
                                                                                             aria-hidden="true"></span></label>
-                                    <a href="#pages" class="link-nav dropdown-toggle">Gallert <span
+                                    <a href="#pages" class="link-nav dropdown-toggle">Gallery <span
                                             class="fa fa-angle-down" aria-hidden="true"></span></a>
                                     <input type="checkbox" id="drop-2" />
                                     <ul class="first-dropdwon">
-                                        <li><a href="about.html">Photos</a></li>
-                                        <li><a href="about.html">Videos</a></li>
+                                        <li><a href="{{route('photo')}}">Photos</a></li>
+                                        <li><a href="{{route('video')}}">Videos</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html" class="link-nav">Contact</a></li>
+                                <li><a href="{{route('contact')}}" class="link-nav">Contact</a></li>
                                 <li class="nav-right-sty">
                                     <div class="social">
                                         <a href="#facebook"><span class="fa fa-facebook"
@@ -164,7 +154,7 @@
                 <div class="text-6-info">
                     <h6>Shotokan Karate</h6>
                     <h2>Dojo</h2>
-                    <p>Shotokan Karatedo Federation India is approved by Karata Association of India (Governing Body of Karate in India). Sensei Yogendra Sharma is the Chief Instructor and Technical Director of S.K.F. India.</p>
+                    <p>Shotokan Karatedo Federation India is a member of Karate India Organisation (Governing Body of Karate in India). Sensei Yogendra Sharma is the Chief Instructor and Technical Director of S.K.F. India.</p>
 
                     <p>He is learning and training Karate since 1980. The Headquarter of S.K.F. India is situated in Baroda, Gujarat, India. It discover training in Traditional Shotokan Karate, Okinawan Kobudo & Self Defence.</p>
                     <a href="about.html" class="btn button-eff"> Read More </a>

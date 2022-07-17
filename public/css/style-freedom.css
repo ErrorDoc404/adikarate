@@ -8,18 +8,21 @@ html {
 
 :root {
     --theme-color-1: #081227;
-    --theme-color-2: #B8B8B8;
+    --theme-color-2: #4a4a4a;
     --theme-color-3: #686868;
-    --main-bg-color: #f8f9fa;
-    --title-color: #2a2a2a;
+    --main-bg-color: #6b6b6b;
+    --title-color: #cf1f1f;
     --sub-title-color: #484747;
-    --para-color: #67696f;
+    --para-color: #fafafa;
+    --background-color: #2e2e2e;
 }
+
 .display-ad{
     margin: 0 !important;
 }
 body,
 html {
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     color: var(--para-color);
@@ -3437,7 +3440,7 @@ a.logo-2 span {
 }
 
 .headers-9 header {
-    background: #fff;
+    background: var(--theme-color-3);
     width: 100%;
     border-bottom: 4px solid var(--theme-color-3);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
@@ -3517,7 +3520,7 @@ a.logo-2 span {
 }
 
 .headers-9 ul.menu a.link-nav {
-    color: var(--title-color);
+    color: var(--para-color);
     font-weight: 400;
     font-size: 17px;
     line-height: 60px;
@@ -3533,18 +3536,18 @@ a.logo-2 span {
     display: block;
     width: 16px;
     height: 16px;
-    background: #fff;
+    background: var(--theme-color-3);
     border-radius: 3px 0 0 0;
     transform: rotate(45deg);
-    border-top: 1px solid #EAEDF2;
-    border-left: 1px solid #EAEDF2;
+    border-top: 1px solid var(--theme-color-2);
+    border-left: 1px solid var(--theme-color-2);
 }
 
 .headers-9 nav ul ul {
     display: none;
-    background: #fff;
+    background: var(--theme-color-3);
     border-radius: 4px;
-    border: 1px solid #EAEDF2;
+    border: 1px solid var(--theme-color-2);
     padding: 1rem;
     min-width: 180px;
     position: absolute;
@@ -4695,9 +4698,9 @@ a.logo-2 span {
 }
 
 .grids-block-5 .blog-info {
-    background: #fff;
+    background: var(--theme-color-2);
     padding: 20px 20px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--theme-color-2);
     border-top: none;
 }
 
@@ -7721,7 +7724,7 @@ body:after {
     align-items: center;
     min-height: 100vh;
     z-index: 0;
-    background: #fff;
+    background: var(--theme-color-2);
 }
 
 .error-main #error-inner {
